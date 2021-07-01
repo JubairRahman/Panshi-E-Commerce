@@ -22,3 +22,31 @@
   padding: 9px 25px;
   cursor: pointer;
 }
+.catg1,
+.catg2,
+.catg3 {
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.catg1 {
+  background-color: orange;
+  padding: 10px 30px;
+}
+.catg2 {
+  background-color: orchid;
+}
+
+.catg3 {
+  background-color: rgb(54, 126, 235);
+}
+
+.categories h1 {
+  color: white;
+}
+
+.categories img {
+  width: 90px;
+}
+h2 {
+  margin: 2rem 0;
+}
