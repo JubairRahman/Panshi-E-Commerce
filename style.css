@@ -61,3 +61,17 @@ h2 {
 .card {
   box-shadow: 5px 5px 10px lightgray;
 }
+
+.card-footer {
+  background-color: white;
+  border-top: none;
+}
+#Likeus {
+  height: 300px;
+}
+#Likeus h6 {
+  color: gray;
+}
+footer {
+  text-align: center;
+}
