@@ -50,3 +50,14 @@
 h2 {
   margin: 2rem 0;
 }
+.container-card {
+  box-shadow: 5px 5px 10ox lightgray;
+}
+
+.row {
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.card {
+  box-shadow: 5px 5px 10px lightgray;
+}

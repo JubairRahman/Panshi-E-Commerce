@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panshi-পানসী</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -127,6 +133,7 @@
       </div>
     </div>
     <!-- Catagory Container-->
+
     <div class="container cataories">
       <div class="row">
         <div class="col-md-4">
@@ -150,152 +157,10 @@
       </div>
     </div>
 
-    <!--   (unsatiesfied card deck )
-
-    
-    --bootsrap card deck perfectly not working--
-    <div class="container Sharees" id=" Sharees">
-      <h3>Shoes</h3>
-      <div class="row">
-        <div class="d-flex justify-content-around card-deck">
-          <div class="col-md-4">
-            <div class="d-flex justify-content-around card">
-              <img
-                class="card-img-top img-fluid"
-                src="images/shoe-1.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="d-flex justify-content-around card">
-              <img
-                class="card-img-top img-fluid"
-                src="images/shoe-2.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="d-flex justify-content-around card">
-              <img
-                class="card-img-top img-fluid"
-                src="images/shoe-3.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    --bootsrap card deck perfectly not working--
-   
--->
-
-    !--codepen solution for card deck -->
-
-    <div class="row">
-      <div class="col-sm-6 col-md-3">
-        <div class="card mb-3">
-          <!-- set a width on the image otherwise it will expand to full width       -->
-          <img
-            class="card-img-top img-fluid"
-            src="images/shoe-3.png"
-            alt="Card image cap"
-            width="400"
-          />
-          <div class="card-body">
-            <h4 class="card-title">.card-title</h4>
-            <p class="card-text">.card-text</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-3">
-        <div class="card mb-3">
-          <img
-            class="card-img-top img-fluid"
-            src="images/shoe-2.png"
-            alt="Card image cap"
-            width="400"
-          />
-          <div class="card-body">
-            <h4 class="card-title">.card-title</h4>
-            <p class="card-text">.card-text</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-3">
-        <div class="card mb-3">
-          <img
-            class="card-img-top img-fluid"
-            src="images/shoe-1.png"
-            alt="Card image cap"
-            width="400"
-          />
-          <div class="card-body">
-            <h4 class="card-title">.card-title</h4>
-            <p class="card-text">.card-text</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-3">
-        <div class="card mb-3">
-          <img
-            class="card-img-top img-fluid"
-            src="images/shoe-2.png"
-            alt="Card image cap"
-            width="400"
-          />
-          <div class="card-body">
-            <h4 class="card-title">.card-title</h4>
-            <p class="card-text">.card-text</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    !--codepen soluton for card deck--> -->
-
     <!--Cards container-->
-
-    <!--Bootstrap V0.5 card deck section -->
+    <!--Bootstrap V0.5 card deck section --
     <div class="container">
-      <div class="container">
+      <div class="container-card">
         <div class="row">
           <div class="col-sm">
             <img
@@ -357,9 +222,115 @@
       </div>
     </div>
 
-    <!--Bootstrap V0.5 card deck section -->
-
-    <!--js query for bootstrap-->
+                                  !--Bootstrap V0.5 card deck section -->
+    <!--bootstrap 5.00 card groups
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+    <!--Bootstrap 4.6 card deck section-->
+    <div class="container">
+      <div class="card-deck">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--js query for bootstrap 5.0 & 4.6-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
